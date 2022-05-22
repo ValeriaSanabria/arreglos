@@ -1,6 +1,6 @@
 let arreglo1: number[] = new Array(6);
 let arreglo2: number[] = new Array(6);
-let arreglo3: number[] = new Array(6);
+
 //let suma: number;
 
   
@@ -24,6 +24,16 @@ let numero2:number, indice2:number
     console.log("El numero en la posicion " + indice2 + " es " + arreglo2[indice2]);
   };
  
+  console.log(
+    "el numero sumado es : ",
+    arreglo1[0] + arreglo2[0],
+    arreglo1[1] + arreglo2[1],
+    arreglo1[2] + arreglo2[2],
+    arreglo1[3] + arreglo2[3],
+    arreglo1[4] + arreglo2[4],
+    arreglo1[5] + arreglo2[5]
+  );
+
 /*function sumarDosArreglos(arreglo1: number, arreglo2: number): number {
   let i:number;
   for(i=1; i<=6 ; i++ ) {
