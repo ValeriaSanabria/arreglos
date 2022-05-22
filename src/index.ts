@@ -1,8 +1,5 @@
 let arreglo1: number[] = new Array(6);
 let arreglo2: number[] = new Array(6);
-
-//let suma: number;
-
   
 let numero1:number, indice1:number
   for(indice1 = 0; indice1 < 6; indice1++) {
@@ -33,15 +30,3 @@ let numero2:number, indice2:number
     arreglo1[4] + arreglo2[4],
     arreglo1[5] + arreglo2[5]
   );
-
-/*function sumarDosArreglos(arreglo1: number, arreglo2: number): number {
-  let i:number;
-  for(i=1; i<=6 ; i++ ) {
-  suma = arreglo1 + arreglo2;
-  };
-    return(suma)
-  }
-  console.log("El arreglo suma es: ", sumarDosArreglos);*/
-
-
-
